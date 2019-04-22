@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/RelativeLayout_one"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:gauge="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:background="#D3D3D3">
+
+
+    <de.nitri.gauge.Gauge
+        android:id="@+id/gauge"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_centerInParent="true"
+        gauge:initialValue="0"
+        gauge:maxValue="100"
+        gauge:minValue="0"
+        gauge:totalNicks="100"
+        gauge:valuePerNick="1"
+        gauge:lowerText="% Fuel"
+        gauge:lowerTextSize="40"
+        gauge:scaleColor="@android:color/black"
+        />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_below="@+id/gauge"
+        android:layout_width="300dp"
+        android:gravity="center"
+        tools:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="TextView" />
+
+
+</RelativeLayout>

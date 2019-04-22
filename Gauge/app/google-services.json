@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "946911276375",
+    "firebase_url": "https://kangou-f1887.firebaseio.com",
+    "project_id": "kangou-f1887",
+    "storage_bucket": "kangou-f1887.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:946911276375:android:b5d93bba67c35fd1",
+        "android_client_info": {
+          "package_name": "com.example.gauge"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "946911276375-tfagr36vnomkdd4ko1q2sn8sdbulnn5q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.gauge",
+            "certificate_hash": "3b85353ab66751560d134a0ba203225eef4f845e"
+          }
+        },
+        {
+          "client_id": "946911276375-9ea8r4t38ai4epl6a8hkkhe2j7v4bl9o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSuAEFtHlU81nT5-3qxAY59Q63s-HM4vM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "946911276375-9ea8r4t38ai4epl6a8hkkhe2j7v4bl9o.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "946911276375-q9ji84qs819mqo8tddos4sikrr9l1p47.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "JeanPaulNseir.kangou"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
